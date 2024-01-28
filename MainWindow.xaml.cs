@@ -78,7 +78,7 @@ namespace WpfApp1
         }
         TextBlock lastTextBlockClicked;
         bool findingMatch = false;
-        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+        private void BlockText_MouseDown(object sender, MouseButtonEventArgs e)
         {
             TextBlock textBlock = sender as TextBlock;
             if (findingMatch == false)
